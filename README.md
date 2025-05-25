@@ -26,4 +26,11 @@
 - Serviços de API.
 - Processamento de dados em lote.
 - Qualquer aplicação que exija escalabilidade horizontal e alta disponibilidade
+### Em https://github.com/dbengp/dio-maquinas-virtuais-com-dimensionamento-automatico/blob/5ea3179f178846c4acf414a87b32dcadff81d866/terraform/main.tf é apresentado código terraform como demonstração do provisionamento básico, as explicações de recursos e propriedades estão descritas nos comentários.
+### Inicialize o Terraform: Abra o terminal no diretório /terraform que contém o arquivo main.tf e execute:
+- `terraform init`
+### Planeje a implantação: Visualize o que o Terraform fará sem realmente criar os recursos:
+- `terraform plan`
+### Aplique a configuração: Para criar os recursos no Azure:
+- `terraform apply`
 
